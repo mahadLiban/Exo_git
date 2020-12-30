@@ -8,14 +8,14 @@ body{
 
 .container{
     width: 60%;
-    background-color: black;
+    background-color:#1A1A1D;
     box-shadow: 1px 1px 12px #555;}
 
 header{
     display: flex;
     align-items: center;
     height: 10vh;
-    background-color: black;
+    background-color:#334D5C;
 }
 nav{
     display: flex;
@@ -31,3 +31,27 @@ header .lesA img{
 .lesA span{
     font-size: 10px;
 }
+.lesA a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    text-decoration: none;
+}
+.backgroundBanner{
+    background-image: url(../img/banner-home.png);
+    height: 500px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+   /* .column2{
+      height: 800px;
+  } */
