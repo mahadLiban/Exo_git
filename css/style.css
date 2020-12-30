@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.container{
+    width: 60%;
+    background-color: black;
+    box-shadow: 1px 1px 12px #555;}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+header .lesA img{
+    height: 40px;
+}
+.lesA{
+    display: flex;
+}
+.lesA span{
+    font-size: 10px;
+}
